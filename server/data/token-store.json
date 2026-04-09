@@ -1,0 +1,233 @@
+{
+  "tokens": {
+    "8a6667178aec449e8140f6186eb1ed4e": {
+      "token": "8a6667178aec449e8140f6186eb1ed4e",
+      "label": "test",
+      "createdAt": "2026-04-09T08:34:08.769Z",
+      "expiresAt": "2026-04-10T08:34:08.769Z",
+      "usedAt": "2026-04-09T08:34:28.389Z",
+      "accessKey": "d4359eda266043fdb45cc1bfaa8b1dcb"
+    },
+    "b5f51cf71de345e2909f2aceea324ee3": {
+      "token": "b5f51cf71de345e2909f2aceea324ee3",
+      "label": "protected-test",
+      "createdAt": "2026-04-09T08:38:53.716Z",
+      "expiresAt": "2026-04-10T08:38:53.716Z",
+      "usedAt": "2026-04-09T08:39:05.206Z",
+      "accessKey": "7fdfbe0fc1884ac4ba8358fa6a212a1b"
+    },
+    "9083dd4eac674d0380c3a1fcd61c5140": {
+      "token": "9083dd4eac674d0380c3a1fcd61c5140",
+      "label": "wechat-locked",
+      "createdAt": "2026-04-09T08:46:39.367Z",
+      "expiresAt": "2026-04-09T09:46:39.367Z",
+      "usedAt": null,
+      "accessKey": null
+    },
+    "4bfedd94d94643a6985e31d0dee6c919": {
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "label": "wechat-locked",
+      "createdAt": "2026-04-09T08:48:13.770Z",
+      "expiresAt": "2026-04-09T09:48:13.770Z",
+      "usedAt": "2026-04-09T08:48:40.509Z",
+      "accessKey": "48a369e926eb45cebb8b3037759598d3"
+    },
+    "d91170b40a38416a9b3435b6b976d777": {
+      "token": "d91170b40a38416a9b3435b6b976d777",
+      "label": "微信分享半小时",
+      "createdAt": "2026-04-09T08:56:33.360Z",
+      "expiresAt": "2026-04-09T09:56:33.360Z",
+      "usedAt": null,
+      "accessKey": null
+    },
+    "2e0b69917d874be38ca09a7c592fb9da": {
+      "token": "2e0b69917d874be38ca09a7c592fb9da",
+      "label": "微信分享半小时",
+      "createdAt": "2026-04-09T09:03:56.596Z",
+      "expiresAt": "2026-04-09T10:03:56.596Z",
+      "usedAt": null,
+      "accessKey": null
+    },
+    "1afdb202bb914c5a8d6ff064805e238d": {
+      "token": "1afdb202bb914c5a8d6ff064805e238d",
+      "label": "微信分享半小时",
+      "createdAt": "2026-04-09T09:06:05.451Z",
+      "expiresAt": "2026-04-09T10:06:05.451Z",
+      "usedAt": null,
+      "accessKey": null
+    },
+    "c9e1ecc109cf4eddad0a49d186e7d462": {
+      "token": "c9e1ecc109cf4eddad0a49d186e7d462",
+      "label": "wifi-test",
+      "createdAt": "2026-04-09T09:09:41.360Z",
+      "expiresAt": "2026-04-09T10:09:41.360Z",
+      "usedAt": null,
+      "accessKey": null
+    },
+    "c8983041501c4326babb549d612a7236": {
+      "token": "c8983041501c4326babb549d612a7236",
+      "label": "微信分享半小时",
+      "createdAt": "2026-04-09T09:14:57.780Z",
+      "expiresAt": "2026-04-09T10:14:57.780Z",
+      "usedAt": null,
+      "accessKey": null
+    }
+  },
+  "accesses": {
+    "d4359eda266043fdb45cc1bfaa8b1dcb": {
+      "key": "d4359eda266043fdb45cc1bfaa8b1dcb",
+      "token": "8a6667178aec449e8140f6186eb1ed4e",
+      "grantedAt": "2026-04-09T08:34:28.388Z",
+      "expiresAt": "2026-04-09T20:34:28.388Z"
+    },
+    "7fdfbe0fc1884ac4ba8358fa6a212a1b": {
+      "key": "7fdfbe0fc1884ac4ba8358fa6a212a1b",
+      "token": "b5f51cf71de345e2909f2aceea324ee3",
+      "grantedAt": "2026-04-09T08:39:05.206Z",
+      "expiresAt": "2026-04-09T20:39:05.206Z"
+    },
+    "48a369e926eb45cebb8b3037759598d3": {
+      "key": "48a369e926eb45cebb8b3037759598d3",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "label": "wechat-locked",
+      "deviceId": "device-a",
+      "userAgent": "Mozilla/5.0 MicroMessenger/8.0.47",
+      "grantedAt": "2026-04-09T08:48:40.509Z",
+      "expiresAt": "2026-04-09T08:58:40.509Z"
+    }
+  },
+  "logs": [
+    {
+      "id": "9ef17d29c2504ab4a0a78ddb425ea62a",
+      "createdAt": "2026-04-09T09:14:57.785Z",
+      "event": "token_created",
+      "token": "c8983041501c4326babb549d612a7236",
+      "key": null,
+      "label": "微信分享半小时",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "detail": "管理员生成了一次性分享链接。"
+    },
+    {
+      "id": "e2e27db0144d49be98594040f4c6a5f7",
+      "createdAt": "2026-04-09T09:09:41.366Z",
+      "event": "token_created",
+      "token": "c9e1ecc109cf4eddad0a49d186e7d462",
+      "key": null,
+      "label": "wifi-test",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "curl/8.7.1",
+      "detail": "管理员生成了一次性分享链接。"
+    },
+    {
+      "id": "8e2eb9fd59a74bb99b8ce2a2a04e5621",
+      "createdAt": "2026-04-09T09:06:05.459Z",
+      "event": "token_created",
+      "token": "1afdb202bb914c5a8d6ff064805e238d",
+      "key": null,
+      "label": "微信分享半小时",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "detail": "管理员生成了一次性分享链接。"
+    },
+    {
+      "id": "ffd802b113de410f9abbbdee93da86d3",
+      "createdAt": "2026-04-09T09:03:56.603Z",
+      "event": "token_created",
+      "token": "2e0b69917d874be38ca09a7c592fb9da",
+      "key": null,
+      "label": "微信分享半小时",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "detail": "管理员生成了一次性分享链接。"
+    },
+    {
+      "id": "4358510cec2e4ae79e94b9f49d8a1a00",
+      "createdAt": "2026-04-09T08:56:33.368Z",
+      "event": "token_created",
+      "token": "d91170b40a38416a9b3435b6b976d777",
+      "key": null,
+      "label": "微信分享半小时",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "detail": "管理员生成了一次性分享链接。"
+    },
+    {
+      "id": "4d8d28b19e58438daf3b28837b6bd0a8",
+      "createdAt": "2026-04-09T08:50:49.312Z",
+      "event": "reject_device_mismatch",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": "48a369e926eb45cebb8b3037759598d3",
+      "label": "wechat-locked",
+      "deviceId": "device-b",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 MicroMessenger/8.0.47",
+      "detail": "当前链接已绑定其他设备，不能在新设备上继续访问。"
+    },
+    {
+      "id": "095dd94614094099b9e526ea98b6be2e",
+      "createdAt": "2026-04-09T08:50:46.105Z",
+      "event": "access_verified",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": "48a369e926eb45cebb8b3037759598d3",
+      "label": "wechat-locked",
+      "deviceId": "device-a",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 MicroMessenger/8.0.47",
+      "detail": "访问许可校验通过。"
+    },
+    {
+      "id": "411dd92726914e5d87e25802e8608dc6",
+      "createdAt": "2026-04-09T08:50:46.004Z",
+      "event": "content_loaded",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": "48a369e926eb45cebb8b3037759598d3",
+      "label": "wechat-locked",
+      "deviceId": "device-a",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 MicroMessenger/8.0.47",
+      "detail": "已返回受保护牌组内容。"
+    },
+    {
+      "id": "5489002135d4461ca552d08daa965680",
+      "createdAt": "2026-04-09T08:48:40.660Z",
+      "event": "reject_non_wechat_consume",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": null,
+      "label": null,
+      "deviceId": "device-a",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 Safari/605.1.15",
+      "detail": "仅允许在微信内打开此链接。"
+    },
+    {
+      "id": "a3742996f9bf47bc8feec758043b2883",
+      "createdAt": "2026-04-09T08:48:40.510Z",
+      "event": "token_consumed",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": "48a369e926eb45cebb8b3037759598d3",
+      "label": "wechat-locked",
+      "deviceId": "device-a",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 MicroMessenger/8.0.47",
+      "detail": "一次性链接已核销并绑定当前设备。"
+    },
+    {
+      "id": "10bdc3226fb54669adb5999f6d76e74d",
+      "createdAt": "2026-04-09T08:48:13.775Z",
+      "event": "token_created",
+      "token": "4bfedd94d94643a6985e31d0dee6c919",
+      "key": null,
+      "label": "wechat-locked",
+      "deviceId": null,
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "curl/8.7.1",
+      "detail": "管理员生成了一次性分享链接。"
+    }
+  ]
+}
