@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import cors from 'cors';
 import express from 'express';
@@ -465,5 +466,21 @@ app.get('/api/content/image', async (request, response) => {
     });
   }
 });
+
+const distPath = path.resolve(process.cwd(), 'dist');
+const distIndexPath = path.join(distPath, 'index.html');
+
+if (existsSync(distPath) && existsSync(distIndexPath)) {
+  app.use(express.static(distPath));
+
+  app.get('*', (request, response, next) => {
+    if (request.path.startsWith('/api/')) {
+      next();
+      return;
+    }
+
+    response.sendFile(distIndexPath);
+  });
+}
 
 export default app;
