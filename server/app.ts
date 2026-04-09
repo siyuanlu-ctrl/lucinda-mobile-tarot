@@ -481,5 +481,7 @@ if (existsSync(distPath) && existsSync(distIndexPath)) {
 
     response.sendFile(distIndexPath);
   });
+}
 
 export default app;
+
