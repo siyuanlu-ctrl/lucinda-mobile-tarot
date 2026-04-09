@@ -473,7 +473,7 @@ const distIndexPath = path.join(distPath, 'index.html');
 if (existsSync(distPath) && existsSync(distIndexPath)) {
   app.use(express.static(distPath));
 
-  app.get('*', (request, response, next) => {
+  app.get('/*', (request, response, next) => {
     if (request.path.startsWith('/api/')) {
       next();
       return;
